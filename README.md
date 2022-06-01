@@ -1,2 +1,2 @@
-# goit-markup-hw-06
-Макет дз №6
+# goit-markup-hw-07
+Макет дз №7
