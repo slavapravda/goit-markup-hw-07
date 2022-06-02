@@ -1,0 +1,50 @@
+.contacts {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+    &__item{
+        margin-right: 50px;
+      }
+    &__item:last-child {
+        margin-right: 0;
+      }
+  }
+ 
+  
+  .navigation__link,
+  .contacts__link{
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .contacts__link{
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+  
+    color: $primatyTxtColor;
+
+    &:hover,
+    &:focus {
+    color: $accentColor;
+  }
+  }
+  
+  .contacts__logo {
+    fill: $primatyTxtColor;
+    margin-right: 10px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .contacts__link:hover .contacts__logo,
+  .contacts__link:focus .contacts__logo{
+    fill: $accentColor;
+  
+  }
