@@ -760,15 +760,15 @@ body {
   color: #2196f3;
 }
 
+.contacts__link:hover .contacts__logo,
+.contacts__link:focus .contacts__logo {
+  fill: #2196f3;
+}
+
 .contacts__logo {
   fill: #757575;
   margin-right: 10px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.contacts__link:hover .contacts__logo,
-.contacts__link:focus .contacts__logo {
-  fill: #2196f3;
 }
 
 .backdrop {
@@ -914,17 +914,6 @@ body {
   line-height: 1.71;
 }
 
-.checkbox__input {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .checkbox__icon {
   display: inline-flex;
   align-items: center;
@@ -935,6 +924,17 @@ body {
   border-radius: 2px;
   fill: #fff;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox__input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .checkbox__input:active ~ .checkbox__icon,
@@ -967,8 +967,7 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-button:hover,
-.form-button:focus {
+.form-button:hover, .form-button:focus {
   background: #188CE8;
 }
 
@@ -1174,6 +1173,10 @@ body {
   justify-content: center;
 }
 
+.clients__item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .clients__link {
   display: flex;
   align-items: center;
@@ -1183,10 +1186,6 @@ body {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.clients__item:not(:last-child) {
-  margin-right: 30px;
 }
 
 .clients__link:hover, .clients__link:focus {

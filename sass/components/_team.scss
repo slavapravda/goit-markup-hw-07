@@ -65,11 +65,11 @@
     &:focus {
     background-color: $accentColor;
   }
-  }
-  
-  .social__link:hover .social__icon,
-  .social__link:focus .social__icon {
+
+    &:hover .social__icon,
+    &:focus .social__icon {
     fill: $whiteColor;
+  }
   }
   
   .social__icon {
