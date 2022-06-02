@@ -4,9 +4,10 @@
   
 .works {
     display: flex;
-    &__item:not(:last-child) {
-        margin-right: 30px;
-      }
+  }
+  
+  .works__item:not(:last-child) {
+    margin-right: 30px;
   }
 
   .works__icon {

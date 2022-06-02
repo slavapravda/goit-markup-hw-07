@@ -1,15 +1,15 @@
 .navigation {
     display: flex;
     align-items: center;
+  }
 
-    &__item {
-        position: relative;
-        margin-right: 50px;
-      }
+  .navigation__item {
+    position: relative;
+    margin-right: 50px;
 
-    &__item:last-child {
-        margin-right: 0;
-      }
+    &:last-child {
+      margin-right: 0;
+    }
   }
   
   .navigation__link{

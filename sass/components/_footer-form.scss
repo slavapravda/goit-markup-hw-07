@@ -2,20 +2,20 @@
     display: flex;
     align-items: end;
     margin-left: 93px;
+  }
+  
+  .form-footer__lable{
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+  }
 
-    &__lable{
-        display: flex;
-        flex-direction: column;
-        margin-right: 12px;
-      }
-
-    &__txt{
-        margin-bottom: 20px;
-        font-weight: 700;
-        line-height: 16px;
-        text-transform: uppercase;
-        color: $whiteColor;
-      }
+.form-footer__txt{
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: $whiteColor;
   }
   
   .form-footer__inpute{

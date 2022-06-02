@@ -2,10 +2,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
-    &__item:not(:last-child) {
-      margin-right: 30px;
-    }
+  }
+  .clients__item:not(:last-child) {
+    margin-right: 30px;
   }
 
   .clients__link {
