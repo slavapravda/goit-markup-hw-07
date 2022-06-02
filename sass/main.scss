@@ -1,7 +1,10 @@
+// utils
 @import "./utils/fonts";
-@import "./base/normalize";
 @import "./utils/variables";
+// base
+@import "./base/normalize";
 @import "./base/reset";
+// components
 @import "./components/main";
 @import "./components/logo";
 @import "./components/header";
@@ -15,5 +18,6 @@
 @import "./components/clients";
 @import "./components/footer";
 @import "./components/footer-form";
+// portfolio-components
 @import "./components/portfolio-button";
 @import "./components/project";
